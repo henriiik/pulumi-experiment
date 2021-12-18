@@ -7,6 +7,15 @@
       "problemMatcher": [],
       "label": "npm: format",
       "detail": "prettier --write ."
+    },
+    {
+      "type": "npm",
+      "script": "watch",
+      "path": "packages/shared/",
+      "group": "build",
+      "problemMatcher": ["$tsc-watch"],
+      "label": "npm: watch - packages/shared",
+      "detail": "tsc --watch"
     }
   ]
 }
