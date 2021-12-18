@@ -1,14 +1,12 @@
 {
   "compilerOptions": {
     "strict": true,
-    "outDir": "lib",
+    "outDir": "bin",
     "rootDir": "src",
-    "target": "ES2020",
+    "target": "es2016",
     "module": "commonjs",
     "moduleResolution": "node",
     "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
     "experimentalDecorators": true,
     "pretty": true,
     "noFallthroughCasesInSwitch": true,

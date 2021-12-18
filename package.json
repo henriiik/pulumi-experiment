@@ -2,6 +2,11 @@
   "dependencies": {
     "prettier": "^2.5.1"
   },
+  "pnpm": {
+    "overrides": {
+      "typescript": "4"
+    }
+  },
   "scripts": {
     "format": "prettier --write ."
   }
