@@ -14,3 +14,8 @@ FROM mcr.microsoft.com/vscode/devcontainers/typescript-node:0-${VARIANT}
 
 # [Optional] Uncomment if you want to install more global node packages
 # RUN su node -c "npm install -g <your-package-list -here>"
+
+RUN curl -fsSL https://get.pulumi.com | sh -s -- --version 3.20.0 && \
+    mkdir -p /home/node && \
+    mv /root/.pulumi /home/node/.pulumi && \
+    chown -hR 1000:1000 /home/node
