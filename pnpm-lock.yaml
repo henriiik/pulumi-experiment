@@ -7,7 +7,7 @@ importers:
 
   .:
     specifiers:
-      prettier: ^2.5.1
+      prettier: '2'
     dependencies:
       prettier: 2.5.1
 
